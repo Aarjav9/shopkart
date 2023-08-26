@@ -1,0 +1,23 @@
+.logic{
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+    //margin-left: auto;
+    .social{
+        display: flex;
+        line-height: 18px;
+        margin-left: auto;
+        & .login{
+            color:  #626262;
+            font-size: 12px;
+        }
+        & .divider{
+        gap: 100px;
+        }
+        & .follow{
+            color:  #626262;
+            font-size: 12px;
+        }
+        gap: 10px;
+    }
+}
