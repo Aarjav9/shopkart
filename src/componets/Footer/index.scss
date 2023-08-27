@@ -1,0 +1,57 @@
+.footer{
+    width: 100%;
+   // display: flex;
+    height: 520px;
+    background-image: url("../../assest/icons/footerbackground.svg") ;
+
+    & .name{
+        display: flex;
+        font-family: Syne;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31.2px;
+        padding-left: 10%;
+        padding-top: 2.5%;
+        color: #FFFFFF80;
+        ;
+       
+    }
+    & .value{
+        width: 29%;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.11px;
+        padding-top: 1%;
+        padding-left: 10%;
+        color: #FFFFFF80;
+    }
+    & .bottom{
+        background-image: url("../../assest/icons/bottomfootercolor.svg");
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-align: center;
+        padding-bottom: 1%;
+       // margin-top: 43%;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+        padding-top: 1%;
+    }
+        
+        & .getin{
+            display: flex;
+            font-family: var(--font-family-Regular);
+            font-weight: 800;
+            font-size: 145px;
+            padding-left: 10%;
+            line-height: 102.6px;
+            color:#FFFFFF;
+    }
+    & .sendbutton{
+        padding-left: -2%;
+    }
+
+}
