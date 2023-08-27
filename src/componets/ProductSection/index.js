@@ -17,7 +17,7 @@ const ProductSection = () => {
     const handleHorizantalScroll = (element, speed, distance, step) => {
         let scrollAmount = 0;
         const slideTimer = setInterval(() => {
-console.log(element)
+
           element.scrollLeft += step;
           scrollAmount += Math.abs(step);
           if (scrollAmount >= distance) {

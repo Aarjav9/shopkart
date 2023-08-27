@@ -24,9 +24,30 @@
                     font-family: var(--Work-Sans-Regular);
                     font-size: 18px;
                     font-style: normal;
-                    font-weight: 400;
+                    font-weight: 600;
                     line-height: normal;
                     text-decoration: none;
+                    text-transform: uppercase;
+                }
+
+                &:hover{
+                    ul{
+                        display: flex;
+                    }
+                }
+                ul {
+                    flex-direction: column;
+                    gap: 1px;
+                    position: absolute;
+                    display: none;
+
+                    a {
+                        color: #FFF;
+                        font-family: var(--Work-Sans-Regular);
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: normal;
+                    }
                 }
             }
         }
