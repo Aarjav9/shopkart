@@ -1,0 +1,14 @@
+.pagination{
+    display: flex;
+    width: max-content;
+    gap: 48px;
+   & .paginate-left{
+        width: 55px;
+        cursor: pointer;
+    }
+    .paginate-right{
+        width: 55px;
+        cursor: pointer;
+    }
+}
+

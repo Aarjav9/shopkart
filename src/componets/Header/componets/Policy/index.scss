@@ -1,22 +1,31 @@
-.policy{
+.policy {
     width: 100%;
     display: flex;
     margin-top: auto;
     margin-bottom: auto;
-    .delivery{
+
+    .delivery {
         display: flex;
         line-height: 18px;
-        gap: 3px;
+        gap: 12px;
+
+        & .free-delivery{
+            display: flex;
+            gap: 6px;
+        }
+
+        & .freetext {
+            color: #626262;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
         
-        & .freetext{
-         color:  #626262;
-         font-size: 12px;
-        }  
-        gap: 4px;
-        & .slach{
-            color:  #626262;
+
+        & .slach {
+            color: #626262;
             font-size: 22px;
-        } 
-        
-    } 
+        }
+
+    }
 }

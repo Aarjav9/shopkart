@@ -28,6 +28,12 @@
     src: url('./assest/fonts/Syne-VariableFont_wght.ttf');
     
 }
+@font-face {
+    font-family: Work-Sans-Regular;
+    src: url('./assest/fonts/work-sans.regular.ttf');
+    
+}
+
 :root {
     --font-family: Syne-Regular, 'sans-serif';
     --font-family-regular: 'Syne-Regular', 'sans-serif';
@@ -36,6 +42,9 @@
     --font-family-Medium: 'Syne-Medium', 'sans-serif';
     --font-family-SemiBold: 'Syne-SemiBold', 'sans-serif';
     --font-family-VariableFont_wght: 'Syne-VariableFont_wght', 'sans-serif';
+
+    // work sans
+    --Work-Sans-Regular: 'Work-Sans-Regular', 'sans-serif';
 }
 * {
     box-sizing: border-box;

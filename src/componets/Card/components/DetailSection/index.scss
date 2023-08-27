@@ -1,0 +1,46 @@
+.detail-section {
+    margin-top: 24px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+    .title {
+        width: 258px;
+        height: 30px;
+        color: var(--grey-scale-1000, #000);
+        /* font-family: Syne; */
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .description {
+        width: 303px;
+        height: 49px;
+        color: var(--greyscale-400, rgba(22, 22, 21, 0.50));
+        /* Body text 14 */
+        font-family: var(--Work-Sans-Regular);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .price {
+        width: 258px;
+        height: 30px;
+        color: var(--grey-scale-1000, #000);
+        /* Subtitles */
+        font-family: var(--font-family);
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}

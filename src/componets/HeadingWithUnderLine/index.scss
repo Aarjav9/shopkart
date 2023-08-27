@@ -1,0 +1,42 @@
+.heading-section {
+    display: flex;
+    width: 100%;
+
+    & .heading {
+        color: var(--grey-scale-1000, #000);
+        /* H2 title */
+        font-family: var(--font-family);
+        font-size: 90px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-left: 2%;
+        position: relative;
+        top: 12px;
+    }
+
+    & .underline-section {
+        display: flex;
+
+        .star-2 {
+            width: 20px;
+            height: 22px;
+            flex-shrink: 0;
+        }
+
+        .underline {
+            width: 546px;
+            height: 1px;
+            flex-shrink: 0;
+            background-color: #161615;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+
+    & .right-section{
+        margin-left: auto;
+        margin-bottom: 48px;
+        margin-top: auto;
+    }
+}

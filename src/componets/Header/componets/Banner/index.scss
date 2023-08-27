@@ -1,0 +1,45 @@
+.banner {
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: auto;
+    height: 60px;
+    // background-image: url("../../../../assest/img/Rectangle.png");
+    // mix-blend-mode: overlay;
+    opacity: 0.89;
+    flex-shrink: 0;
+    background-color: black;
+
+    & .banner-wrapper {
+        display: flex;
+        border-bottom: 2px solid white;
+        width: 100%;
+
+        & .logo {
+            color: white;
+            margin-top: 15px;
+        }
+
+        & .cart-details {
+            display: flex;
+            margin-left: auto;
+            color: white;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            gap: 10px;
+
+            & .wishlist-count,
+            .bag-count {
+                color: #FFF;
+                /* Body text 14 */
+                font-family: var(--Work-Sans-Regular);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+        }
+    }
+}

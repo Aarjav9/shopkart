@@ -6,7 +6,6 @@ const SubHeader =()=> {
     return (<div className="sub-header">
         <Policy/>
         <LoginSocial/>
-    
     </div>)
 }
 export default SubHeader;

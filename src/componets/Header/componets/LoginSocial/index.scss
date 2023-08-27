@@ -1,23 +1,31 @@
-.logic{
-    width: 25%;
+.logic {
+    width: 100%;
+    display: flex;
     margin-top: auto;
     margin-bottom: auto;
+
     //margin-left: auto;
-    .social{
+    .social {
         display: flex;
         line-height: 18px;
         margin-left: auto;
-        & .login{
-            color:  #626262;
+
+        & .login {
+            color: #626262;
             font-size: 12px;
+            cursor: pointer;
         }
-        & .divider{
-        gap: 100px;
+
+        & .divider {
+            gap: 100px;
         }
-        & .follow{
-            color:  #626262;
+
+        & .follow {
+            color: #626262;
             font-size: 12px;
+            cursor: pointer;
         }
+
         gap: 10px;
     }
 }

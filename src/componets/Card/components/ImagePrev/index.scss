@@ -1,0 +1,14 @@
+.img-holder {
+    width: 310px;
+    height: 322px;
+    flex-shrink: 0;
+
+    & .img {
+        object-fit: fill;
+        background-size: 100%;
+        width: 300px;
+        height: 300px;
+
+    }
+}
+ 

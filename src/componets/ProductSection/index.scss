@@ -1,0 +1,19 @@
+.product-wrapper{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    min-height: 400px;
+
+    & .header{
+        display: flex;
+        flex-direction: row; 
+    }
+
+    .product-section{
+        margin-top: 2.5vw;
+        display: flex;
+        overflow: hidden;
+    }
+}
